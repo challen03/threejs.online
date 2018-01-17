@@ -1,6 +1,9 @@
 three.js
 ========
 
+中文版
+由滴滴上海前端团队维护
+
 [![Gitter][gitter-badge]][gitter-badge-url]
 [![Latest NPM release][npm-badge]][npm-badge-url]
 [![License][license-badge]][license-badge-url]
