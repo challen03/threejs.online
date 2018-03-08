@@ -14,23 +14,23 @@ three.js
 
 该项目的目的是创建一个易用、轻量级的3D库。此代码库提供了 &lt;canvas&gt;, &lt;svg&gt;, CSS3D 和 WebGL 渲染器.
 
-[实例](http://threejs.org/examples/) &mdash;
-[文档](http://threejs.org/docs/) &mdash;
+[实例](http://threejs.online/examples/) &mdash;
+[文档](http://threejs.online/docs/) &mdash;
 [Wiki](https://github.com/mrdoob/three.js/wiki) &mdash;
 [迁移](https://github.com/mrdoob/three.js/wiki/Migration-Guide) &mdash;
 [帮助](http://stackoverflow.com/questions/tagged/three.js)
 
 ### 用法 ###
 
-首先下载 [压缩版代码库](http://threejs.org/build/three.min.js) 并将其包含到你的HTML中，或安装并导入它。 [模块](http://threejs.org/docs/#manual/introduction/Import-via-modules),
+首先下载 [压缩版代码库](http://threejs.online/build/three.min.js) 并将其包含到你的HTML中，或安装并导入它。 [模块](http://threejs.online/docs/#manual/introduction/Import-via-modules),
 另外也可以看[如何自己构建库](https://github.com/mrdoob/three.js/wiki/Build-instructions).
 
 ```html
 <script src="js/three.min.js"></script>
 ```
 
-This code creates a scene, a camera, and a geometric cube, and it adds the cube to the scene. It then creates a `WebGL` renderer for the scene and camera, and it adds that viewport to the document.body element. Finally, it animates the cube within the scene for the camera.
-这段代码创建了一个场景、一个摄像头和一个几何立方体，并将立方体添加到场景中。然后，它会为场景和摄像头创建一个“WebGL”渲染器，并将viewport添加到document.body元素中。最后，它会在镜头内展示几何立方体的动画效果。
+
+这段代码创建了一个场景、一个摄像头和一个几何立方体，并将立方体添加到场景中。然后，它会为场景和摄像头创建一个`WebGL`渲染器，并将viewport添加到document.body元素中。最后，它会在镜头内展示几何立方体的动画效果。
 
 ```javascript
 var camera, scene, renderer;
