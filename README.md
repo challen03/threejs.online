@@ -2,7 +2,7 @@ three.js
 ========
 
 中文版
-由滴滴上海前端团队维护
+由滴滴前端联盟维护
 
 [![Gitter][gitter-badge]][gitter-badge-url]
 [![Latest NPM release][npm-badge]][npm-badge-url]
@@ -10,26 +10,27 @@ three.js
 [![Dependencies][dependencies-badge]][dependencies-badge-url]
 [![Dev Dependencies][devDependencies-badge]][devDependencies-badge-url]
 
-#### JavaScript 3D library ####
+#### JavaScript 3D 库 ####
 
-The aim of the project is to create an easy to use, lightweight, 3D library. The library provides &lt;canvas&gt;, &lt;svg&gt;, CSS3D and WebGL renderers.
+该项目的目的是创建一个易用、轻量级的3D库。此代码库提供了 &lt;canvas&gt;, &lt;svg&gt;, CSS3D 和 WebGL 渲染器.
 
-[Examples](http://threejs.org/examples/) &mdash;
-[Documentation](http://threejs.org/docs/) &mdash;
+[实例](http://threejs.org/examples/) &mdash;
+[文档](http://threejs.org/docs/) &mdash;
 [Wiki](https://github.com/mrdoob/three.js/wiki) &mdash;
-[Migrating](https://github.com/mrdoob/three.js/wiki/Migration-Guide) &mdash;
-[Help](http://stackoverflow.com/questions/tagged/three.js)
+[迁移](https://github.com/mrdoob/three.js/wiki/Migration-Guide) &mdash;
+[帮助](http://stackoverflow.com/questions/tagged/three.js)
 
-### Usage ###
+### 用法 ###
 
-Download the [minified library](http://threejs.org/build/three.min.js) and include it in your HTML, or install and import it as a [module](http://threejs.org/docs/#manual/introduction/Import-via-modules),
-Alternatively see [how to build the library yourself](https://github.com/mrdoob/three.js/wiki/Build-instructions).
+首先下载 [压缩版代码库](http://threejs.org/build/three.min.js) 并将其包含到你的HTML中，或安装并导入它。 [模块](http://threejs.org/docs/#manual/introduction/Import-via-modules),
+另外也可以看[如何自己构建库](https://github.com/mrdoob/three.js/wiki/Build-instructions).
 
 ```html
 <script src="js/three.min.js"></script>
 ```
 
 This code creates a scene, a camera, and a geometric cube, and it adds the cube to the scene. It then creates a `WebGL` renderer for the scene and camera, and it adds that viewport to the document.body element. Finally, it animates the cube within the scene for the camera.
+这段代码创建了一个场景、一个摄像头和一个几何立方体，并将立方体添加到场景中。然后，它会为场景和摄像头创建一个“WebGL”渲染器，并将viewport添加到document.body元素中。最后，它会在镜头内展示几何立方体的动画效果。
 
 ```javascript
 var camera, scene, renderer;
@@ -69,11 +70,11 @@ function animate() {
 }
 ```
 
-If everything went well you should see [this](https://jsfiddle.net/f2Lommf5/).
+如果以上代码顺利运行，你应该在看看这里。 [这里](https://jsfiddle.net/f2Lommf5/).
 
-### Change log ###
+### 更改日志 ###
 
-[releases](https://github.com/mrdoob/three.js/releases)
+[发布](https://github.com/mrdoob/three.js/releases)
 
 
 [gitter-badge]: https://badges.gitter.im/mrdoob/three.js.svg
